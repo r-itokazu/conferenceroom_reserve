@@ -7,6 +7,8 @@ import pandas as pd
 
 page = st.sidebar.selectbox("Choose your page", ["users","rooms","bookings"])
 
+# 変更を加えました。
+
 if page == "users":
   st.title("ユーザ登録画面")
   with st.form(key="user"):
